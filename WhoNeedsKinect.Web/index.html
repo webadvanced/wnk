@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset=utf-8>
+        <title>Who Needs Kinect</title>
+        <script src="/Assets/JavaScript/lib/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <style type="text/css">
+            p {
+                font-size: 72px;
+                margin: 40px 0;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            x: <span id="x">---</span>
+        </p>
+        <p>
+            y: <span id="y">---</span>
+        </p>
+    
+        <script type="text/javascript">
+
+        // Position Variables
+            var x = 0,
+                y = 0,
+                vx = 0,
+                vy = 0,
+                ax = 0,
+                ay = 0;
+
+            var delay = 10;
+            var vMultiplier = 0.1;
+
+            window.onload = function () {
+                console.log('on load');
+                window.ondevicemotion = function (event) {
+                    ax = event.accelerationIncludingGravity.x;
+                    ay = event.accelerationIncludingGravity.y;
+                    //console.log(ax + " " + ay);
+                };
+                setInterval(function () {
+                    vy = vy + -(ay);
+                    vx = vx + ax;
+
+                    y = parseInt(y + vy * vMultiplier);
+                    x = parseInt(x + vx * vMultiplier);
+
+                    if (x < 0) {
+                        x = 0;
+                        vx = 0;
+                    }
+                    if (y < 0) {
+                        y = 0;
+                        vy = 0;
+                    }
+                    if (x > document.documentElement.clientWidth - 20) {
+                        x = document.documentElement.clientWidth - 20;
+                        vx = 0;
+                    }
+                    if (y > document.documentElement.clientHeight - 20) {
+                        y = document.documentElement.clientHeight - 20;
+                        vy = 0;
+                    }
+
+                    //                    document.getElementById("x").innerHTML = x;
+                    //                    document.getElementById("y").innerHTML = y;
+                    $.post('/Position/Send', { x: x, y: y });
+
+                }, delay);
+            };
+        </script>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="\\water\websites\WhoNeedsKinnect" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="WhoNeedsKinnect - Water" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Content/themes/base/jquery.ui.button.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="Content/themes/base/jquery.ui.resizable.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="Content/themes/base/jquery.ui.theme.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="03/16/2012 16:51:21" />
+    <file relUrl="Global.asax" publishTime="03/16/2012 16:49:56" />
+    <file relUrl="bin/EntityFramework.xml" publishTime="03/16/2012 16:50:00" />
+    <file relUrl="Views/_ViewStart.cshtml" publishTime="03/16/2012 16:49:56" />
+    <file relUrl="Content/themes/base/jquery.ui.tabs.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Content/themes/base/jquery.ui.base.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="bin/WhoNeedsKinect.Web.dll" publishTime="03/16/2012 17:25:30" />
+    <file relUrl="Assets/JavaScript/lib/jquery-1.7.1.min.js" publishTime="03/16/2012 16:50:24" />
+    <file relUrl="bin/Newtonsoft.Json.pdb" publishTime="03/16/2012 16:51:21" />
+    <file relUrl="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Content/themes/base/jquery.ui.all.css" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Content/themes/base/jquery.ui.autocomplete.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="Assets/JavaScript/lib/signals.min.js" publishTime="03/16/2012 16:50:47" />
+    <file relUrl="index.html" publishTime="03/16/2012 17:31:47" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="03/16/2012 16:51:21" />
+    <file relUrl="bin/SignalR.dll" publishTime="03/16/2012 16:51:21" />
+    <file relUrl="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Assets/JavaScript/prototypeExtensions.js" publishTime="03/16/2012 17:17:32" />
+    <file relUrl="README.jQuery.vsdoc.txt" publishTime="03/16/2012 16:50:24" />
+    <file relUrl="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Content/themes/base/jquery.ui.accordion.css" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="packages.config" publishTime="03/16/2012 16:51:23" />
+    <file relUrl="Assets/JavaScript/lib/jquery.signalR.min.js" publishTime="03/16/2012 16:51:23" />
+    <file relUrl="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Content/themes/base/jquery.ui.dialog.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="bin/WhoNeedsKinect.Web.pdb" publishTime="03/16/2012 17:25:30" />
+    <file relUrl="Content/themes/base/jquery.ui.progressbar.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="bin/WhoNeedsKinect.Core.dll" publishTime="03/16/2012 17:25:30" />
+    <file relUrl="Views/Shared/Error.cshtml" publishTime="03/16/2012 16:49:56" />
+    <file relUrl="Views/Shared/_Layout.cshtml" publishTime="03/16/2012 17:44:26" />
+    <file relUrl="Assets/JavaScript/application.js" publishTime="03/16/2012 17:13:34" />
+    <file relUrl="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Content/themes/base/images/ui-icons_cd0a0a_256x240.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="bin/WhoNeedsKinect.Core.pdb" publishTime="03/16/2012 17:25:30" />
+    <file relUrl="Views/Web.config" publishTime="03/16/2012 16:49:56" />
+    <file relUrl="Content/themes/base/images/ui-icons_454545_256x240.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Content/themes/base/jquery.ui.datepicker.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="Content/themes/base/jquery.ui.selectable.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="03/16/2012 16:51:21" />
+    <file relUrl="Web.config" publishTime="03/16/2012 17:26:16" />
+    <file relUrl="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Content/themes/base/images/ui-icons_888888_256x240.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Content/Site.css" publishTime="03/16/2012 17:43:30" />
+    <file relUrl="Content/themes/base/jquery.ui.slider.css" publishTime="03/16/2012 16:50:22" />
+    <file relUrl="Views/Position/List.cshtml" publishTime="03/16/2012 17:46:31" />
+    <file relUrl="bin/EntityFramework.dll" publishTime="03/16/2012 16:50:00" />
+    <file relUrl="Assets/JavaScript/lib/jquery.signalR.js" publishTime="03/16/2012 16:51:23" />
+    <file relUrl="Assets/JavaScript/models/position.js" publishTime="03/16/2012 17:33:38" />
+    <file relUrl="Content/themes/base/images/ui-icons_222222_256x240.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="bin/SignalR.Hosting.AspNet.dll" publishTime="03/16/2012 16:51:21" />
+    <file relUrl="Content/themes/base/images/ui-icons_2e83ff_256x240.png" publishTime="03/16/2012 16:50:23" />
+    <file relUrl="Assets/JavaScript/jumpStart.js" publishTime="03/16/2012 17:18:26" />
+    <file relUrl="Assets/JavaScript/controllers/positionController.js" publishTime="03/16/2012 17:46:10" />
+    <file relUrl="Content/themes/base/jquery.ui.core.css" publishTime="03/16/2012 16:50:22" />
+  </publishProfile>
+</publishData>

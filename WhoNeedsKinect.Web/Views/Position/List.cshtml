@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Positions";
+}
+<div id="ball"></div>
+@section Scripts {
+    <script src="/signalr/hubs" type="text/javascript"> </script>
+    <script type="text/javascript">
+        app.positionController.init();
+    </script>
+}
